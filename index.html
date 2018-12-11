@@ -31,7 +31,25 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style>
+        /* Create three equal columns that floats next to each other */
+        .column {
+            box-sizing: border-box;
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+            box-sizing: border-box;
+            content: "";
+            display: table;
+            clear: both;
+        }
+        </style>
+        
 </head>
 
 <body id="Enter">
