@@ -150,13 +150,13 @@ aside {
 // Homepage Header
 
 header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    @include background-cover;
-    text-align: center;
-    color: white;
     .bg-primary{
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        @include background-cover;
+        text-align: center;
+        color: white;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
