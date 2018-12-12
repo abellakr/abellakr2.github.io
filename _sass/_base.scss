@@ -304,7 +304,7 @@ header {
 }
 
 .btn-secondary {
-    @include button-variant($theme-primary, $theme-secondary, $theme-secondary);
+    @include button-variant(white, white, $theme-primary);
 }
 
 .btn {
