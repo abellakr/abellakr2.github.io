@@ -149,17 +149,19 @@ aside {
 
 // Homepage Header
 
-.header {
+header {
     position: relative;
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    .bg-primary{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-image: url('../img/header.jpg');    
+    }
     .header-content {
         position: relative;
         text-align: center;
