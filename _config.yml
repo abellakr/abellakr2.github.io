@@ -12,4 +12,4 @@ github_username:
 markdown: kramdown
 
 future: true
-timezone: UTC-6
+encoding: UTC-6
