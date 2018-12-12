@@ -40,6 +40,6 @@ $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "../sass/_mixins.scss",
-        "../sass/_base.scss"
+        "../_sass/_mixins.scss",
+        "../_sass/_base.scss"
 ;
