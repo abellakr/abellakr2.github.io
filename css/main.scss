@@ -40,8 +40,8 @@ $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "mixins",
-        "base"
+        "/blob/master/_sass/_mixins.scss",
+        "/blob/master/_sass/_base.scss"
 ;
 
 
