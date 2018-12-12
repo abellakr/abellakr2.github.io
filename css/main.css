@@ -104,7 +104,7 @@ header .header-content {
 header .header-content .header-content-inner h1 { 
   font-weight: 700; 
   text-transform: uppercase; 
-  margin-top: 160; 
+  margin-top: 200; 
   margin-bottom: 0; 
 }
 /* header break */
@@ -114,8 +114,8 @@ header .header-content .header-content-inner hr {
 
 /* header subheading paragraph */
 header .header-content .header-content-inner p { 
-  font-weight: 700; color: rgb(255, 255, 255); 
-  font-size: 18px; margin-top: 50px; 
+  font-weight: 300; color: rgb(255, 255, 255); 
+  font-size: 16px; 
   margin-bottom: 50px; 
 }
 
@@ -174,11 +174,32 @@ header .header-content .header-content-inner p {
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active { background-color: white; border-color: white; }
 .btn-default .badge { color: white; background-color: #222; }
 
-.btn-primary { color: white; background-color: #F05F40; border-color: #F05F40; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary { color: white; background-color: #ee4b28; border-color: #ed431f; }
-.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary { background-image: none; }
-.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active { background-color: #F05F40; border-color: #F05F40; }
-.btn-primary .badge { color: #F05F40; background-color: white; }
+
+/* button primary */
+.btn-primary { 
+  color: white; 
+  background-color: #F05F40; 
+  border-color: #F05F40; 
+  -webkit-transition: all 0.35s; 
+  -moz-transition: all 0.35s; 
+  transition: all 0.35s; 
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary { 
+  color: white; 
+  background-color: #ee4b28; 
+  border-color: #ed431f; 
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary { 
+  background-image: none; 
+}
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active { 
+  background-color: #F05F40; border-color: #F05F40; 
+}
+.btn-primary .badge { 
+  color: #F05F40; background-color: white; 
+}
+
+/* button secondary */
 
 .btn { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; border: none; border-radius: 300px; font-weight: 700; text-transform: uppercase; }
 
