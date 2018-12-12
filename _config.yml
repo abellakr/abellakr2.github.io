@@ -9,7 +9,7 @@ twitter_username:
 github_username:
 
 # Build settings
-markdown: kramdown
+markdown: kramdowns
 
 future: true
 encoding: UTC-6
