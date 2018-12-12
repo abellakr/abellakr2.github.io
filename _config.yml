@@ -2,8 +2,8 @@
 title: Welcome to my portfolio
 email:
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "https://github.com/abellakr/abellakr.github.io" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "/abellakr.github.io" # the subpath of your site, e.g. /blog/
+url: "http://abellakr.github.io" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
